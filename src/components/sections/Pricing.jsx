@@ -87,11 +87,14 @@ const Pricing = () => {
                   ))}
                 </div>
 
-                <button className="w-full bg-gradient-to-r from-purple-600 to-purple-700 py-5 rounded-2xl hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 flex items-center justify-center space-x-4 text-xl font-bold shadow-2xl shadow-purple-900/50 group">
+                <a 
+                  href="https://kgznp0-ag.myshopify.com/checkouts/cn/Z2NwLXVzLWVhc3QxOjAxSlg1TURUN01ISkNWRFlDRUowVFczWlFI?auto_redirect=false&edge_redirect=true&locale=en&preview_theme_id=143701344431&skip_shop_pay=true"
+                  className="w-full bg-gradient-to-r from-purple-600 to-purple-700 py-5 rounded-2xl hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 flex items-center justify-center space-x-4 text-xl font-bold shadow-2xl shadow-purple-900/50 group"
+                >
                   <Zap className="w-6 h-6 group-hover:scale-110 transition-transform" />
                   <span>Upgrade to Pro</span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
-                </button>
+                </a>
 
                 <p className="text-center text-gray-400 mt-6 text-lg">
                   ⚡ Instant Access - Deploy immediately after purchase

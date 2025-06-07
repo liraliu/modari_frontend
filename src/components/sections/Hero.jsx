@@ -31,11 +31,14 @@ const Hero = ({ isLoaded }) => {
               </p>
               
               <div className="flex items-center space-x-6">
-                <button className="bg-gradient-to-r from-purple-600 to-purple-700 px-10 py-5 rounded-xl hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50 flex items-center space-x-4 text-xl font-semibold group">
+                <a 
+                  href="#cta"
+                  className="bg-gradient-to-r from-purple-600 to-purple-700 px-10 py-5 rounded-xl hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50 flex items-center space-x-4 text-xl font-semibold group"
+                >
                   <Play className="w-6 h-6 transition-transform group-hover:scale-110" />
                   <span>Deploy Now</span>
                   <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-2" />
-                </button>
+                </a>
                 <button className="border-2 border-purple-500 px-10 py-5 rounded-xl hover:bg-purple-500/20 hover:border-purple-400 transition-all flex items-center space-x-4 text-xl group">
                   <Eye className="w-6 h-6 transition-transform group-hover:scale-110" />
                   <span>Live Demo</span>
