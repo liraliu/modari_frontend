@@ -28,10 +28,13 @@ const Navigation = ({ isLoaded }) => {
             Demo
             <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-purple-400 transition-all duration-300 group-hover:w-full"></div>
           </a>
-          <button className="bg-gradient-to-r from-purple-600 to-purple-700 px-8 py-3 rounded-xl hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 flex items-center space-x-3 text-lg font-semibold">
+          <a 
+            href="https://kgznp0-ag.myshopify.com/checkouts/cn/Z2NwLXVzLWVhc3QxOjAxSlg1TURUN01ISkNWRFlDRUowVFczWlFI?auto_redirect=false&edge_redirect=true&locale=en&preview_theme_id=143701344431&skip_shop_pay=true"
+            className="bg-gradient-to-r from-purple-600 to-purple-700 px-8 py-3 rounded-xl hover:from-purple-700 hover:to-purple-800 transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 flex items-center space-x-3 text-lg font-semibold"
+          >
             <span>Add to Discord</span>
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-          </button>
+          </a>
         </div>
       </div>
     </nav>
